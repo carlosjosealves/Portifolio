@@ -1,0 +1,104 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Montserrat', sans-serif;
+     background: #b9b4b4;
+ }
+
+ header {
+     background-image: url("../imagens/fundo5.jpg");
+
+     width: 100%;
+     right: 100px;
+ }
+
+ .caixa {
+     position: relative;
+     width: 100%;
+     margin: 0 auto;
+
+ }
+
+ .img {
+     width: 23%;
+     padding: 40px;
+     margin: 0 0 0 100px;
+
+ }
+
+ nav {
+     position: absolute;
+     top: 175px;
+     right: 130px;
+ }
+
+ nav li {
+     display: inline;
+     padding: 8px;
+     font-size: 40px;
+     background: black;
+     margin: 0 0 0 50px;
+     border-radius: 20px;
+ }
+
+ nav a {
+     text-transform: uppercase;
+     text-decoration: none;
+     color: #f7f7f7;
+ }
+
+ nav a:hover {
+     font-size: 42px;
+     color: blue;
+ }
+
+ main {
+     text-align: center;
+     width: 100%;
+     margin: 0 auto;
+     padding: 40px 0;
+
+ }
+
+ main h1 {
+     font-size: 50px;
+     padding: 40px;
+
+ }
+
+ main p {
+     font-family: tahoma;
+     font-size: 20px;
+     text-transform: uppercase;
+     margin: 30px;
+
+ }
+
+ .imgs {
+     width: 30%;
+     border-radius: 40px;
+     margin: 30px;
+     box-shadow: 0 2px 33px #000000;
+ }
+
+ .imgs:hover {
+     width: 33%;
+ }
+
+ footer {
+     text-align: center;
+     background: black;
+ }
+
+ footer p {
+     font-size: 10px;
+     text-align: center;
+     color: #f7f7f7;
+     padding-bottom: 10px;
+
+ }
+
+ .imgrodape {
+     width: 10%;
+
+ }
